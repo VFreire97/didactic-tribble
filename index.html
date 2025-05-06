@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Portifólio - Victor Freire</title>
+</head>
+
+<body>
+    <header class="container text-center">
+        <img src="img/avatar-perfil.png" alt="avatar da Fernanda" class="rounded-circle" width="150" height="150"
+            srcset="">
+        <p class="lead">Eu sou Victor</p>
+        <h1>Seja bem vindo</h1>
+        <p>Sou Engenheiro em Controle e Automação pelo IFSP. Ensino pensamento computacional para estudantes do Ensino Médio da SEDUC-SP. Desenvolvemos projetos de programação usando HTML, CSS e JavaScript. Veja os projetos
+            que já desenvolvi!</p>
+        <p>Minhas habilidades</p>
+        <div>
+            <p class="badge bg-secondary">HTML</p>
+            <p class="badge bg-secondary">CSS</p>
+            <p class="badge bg-secondary">JavaScript</p>
+            <p class="badge bg-secondary">Scratch</p>
+        </div>
+    </header>
+    <main class="container mt-5">
+        <h2>Meus projetos</h2>
+        <div class="row">
+            <!-- Projeto 1 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/projeto-1.png" class="card-img-top" alt="Imagem do projeto de biblioteca virtual">
+                    <div class="card-body">
+                        <h5 class="card-title">Super Trunfo - Scratch</h5>
+                        <p class="card-text">Este foi um dos projetos desenvolvido junto aos alunos do Novo Ensino Médio em 2024, na disciplina de Tecnologia e Robótica, em parceria com a Alura.
+                        </p>
+                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal1">Veja
+                            o projeto</button>
+                    </div>
+                </div>
+            </div>
+            <!-- Projeto 2 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/projeto-2.png" class="card-img-top" alt="Imagem do projeto de biblioteca virtual">
+                    <div class="card-body">
+                        <h5 class="card-title">Hello World! Uma introdução às possibilidades com HTML, CSS e JavaScript</h5>
+                        <p class="card-text">Este projeto é uma demonstração das possibilidades que temos ao mesclar as linguagens HTML, CSS e JavaScript para o desenvolvimento de páginas web </p>
+                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal2">Veja
+                            o projeto</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Projeto 3 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/projeto-3.png" class="card-img-top" alt="Imagem do projeto de biblioteca virtual">
+                    <div class="card-body">
+                        <h5 class="card-title">Pong: o precursor dos vídeogames como ferramenta de estudo para programação.
+                        </h5>
+                        <p class="card-text">O projeto é uma aplicação interativa da linguagem JavaScript atrelado à uma das diversas bibliotecas adicionais disponíveis para o P5.JS
+                        </p>
+                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal3">Veja
+                            o projeto</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Modal 1 -->
+    <div class="modal" id="modal1" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Super Trunfo - Scratch</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>O "Super Trunfo" é um jogo de cartas colecionáveis onde os jogadores competem para tomar as cartas dos outros participantes, comparando características de cada carta (como velocidade, altura, etc.)
+                    </p>
+                    <p>Para este projeto, foi proposta a elaboração de uma versão digital do Super Trunfo, onde randomicamente são gerados personagens e, conforme a combinação dos elementos que o compõe, valores de Inteligência, Força e Velocidade são gerados. Ao escolher qual característica de seu personagem será comparada, um oponente é gerado, e sua pontuação equivalente será comparada. Vence a rodada a carta com o maior valor entre os comparados. A cada vitória, o fundo se torna verde e um ponto é adicionado ao seu placar. Em caso de derrota, o fundo fica vermelho e um ponto é adicionado ao adversário. Após alguns segundos, uma nova rodada se inicia.                        
+                    </p>
+                    <img src="img/projeto-1.png" class="img-fluid w-100"
+                        alt="Imagem representativa do projeto de uma biblioteca online">
+                </div>
+                <div class="modal-footer">
+                    <a href="https://scratch.mit.edu/projects/1044120319">Ver projeto ao vivo</a>
+                    <a href="https://scratch.mit.edu/projects/1044120319/editor/">Ver código do projeto</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal 2 -->
+    <div class="modal" id="modal2" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Hello World! Uma introdução às possibilidades com HTML, CSS e JavaScript</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>O projeto consiste em uma aplicação web interativa, desenvolvida com HTML, CSS, e JavaScript, aplicando os conceitos para o desenvolvimento de uma
+                    página web simples, mas totalmente funcional, com elementos gráficos estáticos e uma interface inicial interativa.
+                    </p>
+                    <p>Este projeto em questão foi desenvolido durante a trilha de aprofundamento docente no ano de 2024 pela plataforma Alura.</p>
+                    <img src="img/projeto-2.png" class="img-fluid w-100"
+                        alt="Imagem representativa do projeto de uma biblioteca online">
+                </div>
+                <div class="modal-footer">
+                    <a href="https://vfreire97.github.io/WebAlura/">Ver projeto ao vivo</a>
+                    <a href="https://github.com/VFreire97/WebAlura">Ver código do projeto</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal 3 -->
+    <div class="modal" id="modal3" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Pong: o precursor dos vídeogames como ferramenta de estudo para programação.</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>O projeto é uma aplicação interativa da linguagem JavaScript atrelado à uma das diversas bibliotecas adicionais disponíveis para o P5.JS</p>
+                    <p>Com uma trilha sonora emocionante e a possibilidade de multiplayer, o projeto traz à tona um dos clássicos dos vídeo games: o Pong!</p>
+                    <p>Criado por Allan Alcorn (engenheiro e cientista da computação), o que parecia ser uma ideia “simples” se mostrou ser algo genial. Pong foi desenvolvido em meio a testes realizados pelo engenheiro quando ele ainda não tinha tanta experiência em jogos eletrônicos.</p>
+                    <p>Foi aí que Nolan Bushnell (fundador da Atari) resolveu fazer alguns ajustes pontuais para deixar o jogo mais acessível. Então, melhorando o ângulo da câmera e deixando a física da bolinha mais previsível, o jogo foi ficando mais intuitivo e ganhando forma.</p>
+                    <img src="img/projeto-3.png" alt="Projeto 3" class="img-fluid w-100">
+                </div>
+                <div class="modal-footer">
+                    <a href="https://editor.p5js.org/victorfreire/full/JEhMKZuPYv">Ver projeto ao vivo</a>
+                    <a href="https://editor.p5js.org/victorfreire/sketches/JEhMKZuPYv">Ver código do projeto</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="container py-5">
+        <h2>Entre em contato</h2>
+        <div>
+            <i class="bi bi-github"></i>
+            <a href="https://github.com/VFreire97">GitHub</a> <p></p>
+            <a href="https://br.linkedin.com/in/victor-fontes-freire-b91023198">LinkedIn</a>
+        </div>
+        <p class="my-5 text-center">© Copyright 2025. Produzido por Victor Freire em parceria com Start by Alura</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
